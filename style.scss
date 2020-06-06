@@ -1,0 +1,31 @@
+$br: 1px solid #666;
+.wrapper{
+  display:flex;
+  width:100%;
+  height: 100%;
+  border: $br;
+}
+.header__wrap{
+  display:flex;
+  height: 50px;
+  box-sizing: border-box;
+}
+.content__wrap{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  
+}
+.left-aside{
+  display:flex;
+  flex-direction: column;
+  width: 200px;
+  box-sizing: border-box;
+}
+.content-inner{
+
+}
+.footer__wrap{
+  height:100px;
+  box-sizing: border-box;
+}
