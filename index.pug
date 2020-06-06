@@ -7,11 +7,21 @@ html(lang="eru")
     title Чат. Тестовое задание
   body
     .wrapper
-      header.header_wrap
+      header.header__wrap Header 
       content.content__wrap
         aside.left-aside
-        .content-inner
+          - for(var i=0; i<25; i++){
+            .user__wrap
+              a(href="#")
+                img.user__icon(src="./img/user.jpg" alt="")
+                .user__name User name
+          -}
+        .content-inner 
+          - for(var d=0; d<25;d++){
+            .message__wrap.message__sent Отправленное сообщение
+            .message__wrap.message__received Полученное сообщение
+          - }
       footer.footer__wrap
         .footer__wrap-message
-          textarea.footer__textarea(name="message" plaseholder="Введите сообщение")
-          i.footer__button-send  
+          textarea.footer__textarea(name="message" cols="200" rows="4" placeholder="Введите сообщение")
+          i.footer__button-send Send  

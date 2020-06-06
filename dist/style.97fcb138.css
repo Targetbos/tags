@@ -1,0 +1,120 @@
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 97vh;
+  box-sizing: border-box;
+  border: 1px solid #666;
+}
+
+.header__wrap {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #666;
+  overflow: hidden;
+}
+
+.content__wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left-aside {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  box-sizing: border-box;
+  border-right: 1px solid #666;
+  height: 81vh;
+  overflow-y: scroll;
+}
+
+.user__wrap {
+  display: flex;
+  border: 1px solid #666;
+  height: 2.8rem;
+  margin-bottom: 0.1rem;
+}
+.user__wrap > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #666;
+  width: 100%;
+}
+.user__icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 0.1rem 0.3rem;
+}
+
+.content-inner {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  height: 81vh;
+  overflow-y: scroll;
+}
+
+.message__wrap {
+  display: inline-flex;
+  padding: 0.5rem;
+  margin: 0.3rem 0.5rem;
+  box-sizing: border-box;
+  min-width: 20rem;
+}
+.message__sent {
+  float: right;
+  border: 1px solid #666;
+  border-radius: 0.3rem;
+  background: #c7c7ae;
+}
+.message__received {
+  float: left;
+  border: 1px solid #666;
+  border-radius: 0.3rem;
+  background: #dada9f;
+}
+
+.footer__wrap {
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid #666;
+  overflow: hidden;
+}
+.footer__wrap-message {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer__textarea {
+  width: 100%;
+}
+.footer__button-send {
+  display: inline-flex;
+  align-items: center;
+  padding: 1.3rem 0.5rem;
+  background: #777;
+  border: 1px solid #666;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  color: #fff;
+}
+.footer__button-send:hover {
+  background: #dada9f;
+  color: black;
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */
